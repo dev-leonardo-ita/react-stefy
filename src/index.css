@@ -175,3 +175,136 @@ nav {
   line-height: 40px;
   width: 900px;
 }
+
+/* INSTAGRAM  */
+
+.insta-post {
+  color: white;
+}
+
+.insta-post h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+
+.insta-post h2 a {
+  color: #f08c00;
+}
+
+.insta-flex {
+  text-align: center;
+}
+
+.insta-flex div {
+
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.insta-flex div img {
+  height: 300px;
+}
+
+.insta-flex img:hover {
+  cursor: pointer;
+
+}
+
+.insta-flex div img:nth-child(1) {
+  /* border-left: 3px solid #f08c00; */
+}
+
+.insta-flex div img:nth-child(2) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.insta-flex div img:nth-child(3) {
+  /* border-right: 3px solid #f08c00; */
+}
+
+.insta-flex p {
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+.insta-flex p a {
+  font-size: 18px;
+  color: #f08c00;
+  text-decoration: none;
+}
+
+.insta-clone-img {
+  height: 250px;
+}
+
+.insta-clone {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+
+.insta-clone-desc {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.insta-clone-desc h2 {
+  font-size: 22px;
+}
+
+.insta-clone-desc-title {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.insta-clone-desc div:nth-child(2) {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.insta-clone-desc div span {
+  font-weight: bold;
+}
+
+.insta-clone-desc div:nth-child(2) p {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.clone-flex-follow {
+  display: flex;
+
+}
+
+.clone-flex-follow button {
+  margin-left: 25px;
+  background-color: #0095f6;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  padding: 0px 20px;
+  height: 35px;
+}
+
+.clone-flex-follow button:hover {
+  cursor: pointer;
+  background-color: #0074cc;
+}
+
+.clone-flex-follow button:nth-child(3) {
+  color: black;
+  background-color: white;
+  margin-left: 8px;
+}
+
+.clone-flex-follow button:nth-child(3):hover {
+  background-color: #DADDE1;
+  ;
+}
