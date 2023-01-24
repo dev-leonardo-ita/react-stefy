@@ -82,3 +82,60 @@ nav {
   transition: .5s;
   color: #f08c00;
 }
+
+/* PAGE */
+
+.home {
+  background-position: center;
+  background-size: cover;
+  height: 830px;
+  background-image: url(img/home-img-one.jpg);
+  position: relative;
+}
+
+.home-colors {
+  /* border-bottom: 10px solid #222; */
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 830px;
+  background: linear-gradient(black, rgba(0, 0, 0, .2), black);
+}
+
+.home-colors div {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.home-colors a {
+  text-decoration: none;
+  font-size: 40px;
+  color: #f08c00;
+}
+
+.home-colors-bottom {
+  flex-direction: column;
+  display: flex;
+  bottom: 30px;
+  position: absolute;
+}
+
+.home-colors-bottom p {
+  font-size: 20px;
+  color: #f08c00;
+}
+
+.home h1 {
+  color: #f08c00;
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.home h2 {
+  color: #f59f00;
+  font-size: 30px;
+  margin-top: 20px;
+}
