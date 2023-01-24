@@ -1,5 +1,6 @@
 import react from 'react';
 import Navbar from './navbar'
+import "./index.css"
 
 function App() {
   return (
